@@ -1,1 +1,1 @@
-include ':UserVoiceSDK', ':UVDemo'
+include ':UserVoiceSDK'
