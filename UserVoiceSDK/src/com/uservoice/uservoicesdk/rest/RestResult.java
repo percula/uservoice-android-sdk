@@ -47,7 +47,7 @@ public class RestResult {
     public String getType() {
         try {
             return object.getJSONObject("errors").getString("type");
-        } catch (JSONException e) {
+        } catch (Exception e) {
             return null;
         }
     }
