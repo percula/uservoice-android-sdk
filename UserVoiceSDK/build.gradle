@@ -53,14 +53,9 @@ android {
         }
     }
     defaultConfig {
-        minSdkVersion 18
-        targetSdkVersion 26
+        targetSdkVersion 28
+        minSdkVersion 17
     }
-    compileOptions {
-        sourceCompatibility = 1.8
-        targetCompatibility = 1.8
-    }
-    buildToolsVersion = '28.0.3'
 }
 
 dependencies {
