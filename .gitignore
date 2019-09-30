@@ -17,6 +17,6 @@ local.properties
 .idea/
 
 # Gradle stuff
-gradlew
-gradlew.bat
+#gradlew
+#gradlew.bat
 #gradle/
