@@ -40,3 +40,4 @@ modules.xml
 #gradlew
 #gradlew.bat
 #gradle/
+build_file_checksums.ser
