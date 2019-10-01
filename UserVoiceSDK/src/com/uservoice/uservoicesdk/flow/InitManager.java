@@ -65,10 +65,14 @@ public class InitManager {
 
                             @Override
                             public void onError(RestResult error) {
-                                if (error.getType().equals("unauthorized")) {
-                                    done();
-                                } else {
-                                    super.onError(error);
+                                try {
+                                    if (error.getType().equals("unauthorized")) {
+                                        done();
+                                    } else {
+                                        super.onError(error);
+                                    }
+                                } catch (Exception e) {
+                                    super.onError(new RestResult(e));
                                 }
                             }
                         });
