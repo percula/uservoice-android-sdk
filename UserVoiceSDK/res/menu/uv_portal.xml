@@ -5,7 +5,7 @@
           android:icon="@android:drawable/ic_menu_search"
           android:title="@string/uv_menu_search"
           uv:showAsAction="always|collapseActionView"
-          uv:actionViewClass="android.support.v7.widget.SearchView" />
+          uv:actionViewClass="androidx.appcompat.widget.SearchView" />
 
     <item android:id="@+id/uv_action_contact"
           uv:showAsAction="always"

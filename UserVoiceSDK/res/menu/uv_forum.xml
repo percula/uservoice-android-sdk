@@ -6,7 +6,7 @@
           android:title="@string/uv_menu_search"
           android:icon="@android:drawable/ic_menu_search"
           uv:showAsAction="ifRoom|collapseActionView"
-          uv:actionViewClass="android.support.v7.widget.SearchView" />
+          uv:actionViewClass="androidx.appcompat.widget.SearchView" />
     
     <item android:id="@+id/uv_new_idea"
           android:title="@string/uv_submit_idea"

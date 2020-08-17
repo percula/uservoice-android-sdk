@@ -1,6 +1,6 @@
 package com.uservoice.uservoicesdk.flow;
 
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 
 import android.text.TextUtils;
 import android.widget.Toast;
@@ -9,7 +9,6 @@ import com.uservoice.uservoicesdk.Session;
 import com.uservoice.uservoicesdk.babayaga.Babayaga;
 import com.uservoice.uservoicesdk.dialog.PasswordDialogFragment;
 import com.uservoice.uservoicesdk.dialog.SigninDialogFragment;
-import com.uservoice.uservoicesdk.flow.SigninCallback;
 import com.uservoice.uservoicesdk.model.AccessTokenResult;
 import com.uservoice.uservoicesdk.model.RequestToken;
 import com.uservoice.uservoicesdk.model.User;

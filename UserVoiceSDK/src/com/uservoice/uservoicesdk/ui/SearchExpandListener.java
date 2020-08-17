@@ -1,7 +1,7 @@
 package com.uservoice.uservoicesdk.ui;
 
 import android.annotation.SuppressLint;
-import android.support.v4.view.MenuItemCompat;
+import androidx.core.view.MenuItemCompat;
 import android.view.MenuItem;
 
 import com.uservoice.uservoicesdk.activity.SearchActivity;

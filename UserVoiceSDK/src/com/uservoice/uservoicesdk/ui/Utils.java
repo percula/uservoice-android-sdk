@@ -6,7 +6,7 @@ import android.annotation.SuppressLint;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.support.v4.app.FragmentActivity;
+import androidx.fragment.app.FragmentActivity;
 import android.util.TypedValue;
 import android.view.View;
 import android.webkit.WebChromeClient;
@@ -17,7 +17,6 @@ import android.widget.TextView;
 import android.graphics.Color;
 
 import com.uservoice.uservoicesdk.R;
-import com.uservoice.uservoicesdk.Session;
 import com.uservoice.uservoicesdk.activity.TopicActivity;
 import com.uservoice.uservoicesdk.dialog.ArticleDialogFragment;
 import com.uservoice.uservoicesdk.dialog.SuggestionDialogFragment;

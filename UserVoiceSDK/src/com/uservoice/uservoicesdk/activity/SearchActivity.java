@@ -1,10 +1,10 @@
 package com.uservoice.uservoicesdk.activity;
 
 import android.annotation.SuppressLint;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.MenuItemCompat;
-import android.support.v7.app.ActionBar;
-import android.support.v7.widget.SearchView;
+import androidx.fragment.app.FragmentTransaction;
+import androidx.core.view.MenuItemCompat;
+import androidx.appcompat.app.ActionBar;
+import androidx.appcompat.widget.SearchView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ListView;
